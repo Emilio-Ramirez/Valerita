@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SUPRA - Aplicación superficial para restaurar pavimentos deteriorados">
+  <title>SUPRA - TIU Pavimentos</title>
+  <link rel="stylesheet" href="https://use.typekit.net/xvo4tps.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo/logo.png" alt="TIU Pavimentos" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="nav-logo" style="display:none;" data-i18n="nav.logo">TIU PAVIMENTOS</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="index.html#productos" class="nav-link" data-i18n="nav.products">Productos</a></li>
+        <li><a href="contacto.html" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+        <li><button class="lang-toggle" onclick="toggleLanguage()">EN / ES</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Product Detail -->
+  <section class="section-lg" style="margin-top: 80px;">
+    <div class="container-narrow">
+      <a href="index.html" class="btn btn-sm" style="margin-bottom: var(--space-4);" data-i18n="product.back">← Volver a Inicio</a>
+
+      <h1 style="margin-bottom: var(--space-2);">SUPRA</h1>
+
+      <p style="font-size: var(--font-size-lg); color: var(--color-gray-600); margin-bottom: var(--space-6);" data-i18n="supra.intro">
+        Aplicación superficial con base asfáltica modificada con polímeros y fibras cerámicas que restaura pavimentos moderadamente deteriorados, ofreciendo alta resistencia, durabilidad y una superficie segura.
+      </p>
+
+      <p data-i18n="supra.description">
+        SUPRA es una solución avanzada para la rehabilitación de pavimentos que combina tecnología de polímeros de última generación con fibras cerámicas, creando una superficie resistente y duradera que protege y extiende la vida útil del pavimento existente.
+      </p>
+
+      <!-- Technical Sheet -->
+      <div style="margin: var(--space-8) 0; padding: var(--space-4); background: var(--color-gray-100); text-align: center;">
+        <h3 style="margin-bottom: var(--space-3);" data-i18n="product.technical-sheet">Ficha Técnica</h3>
+        <a href="docs/supra-ficha-tecnica.pdf" class="btn btn-primary" download data-i18n="product.download-pdf">Descargar PDF</a>
+      </div>
+
+      <!-- Gallery -->
+      <h3 style="margin-top: var(--space-8); margin-bottom: var(--space-4);" data-i18n="product.gallery">Galería</h3>
+      <div class="gallery">
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_0422.JPG')">
+          <img src="images/supra/IMG_0422.JPG" alt="SUPRA aplicación 1">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_0423.JPG')">
+          <img src="images/supra/IMG_0423.JPG" alt="SUPRA aplicación 2">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_0425.JPG')">
+          <img src="images/supra/IMG_0425.JPG" alt="SUPRA aplicación 3">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_0426.JPG')">
+          <img src="images/supra/IMG_0426.JPG" alt="SUPRA aplicación 4">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_3006.JPG')">
+          <img src="images/supra/IMG_3006.JPG" alt="SUPRA aplicación 5">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_3037.JPG')">
+          <img src="images/supra/IMG_3037.JPG" alt="SUPRA aplicación 6">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_5720.jpg')">
+          <img src="images/supra/IMG_5720.jpg" alt="SUPRA aplicación 7">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_5740.jpg')">
+          <img src="images/supra/IMG_5740.jpg" alt="SUPRA aplicación 8">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_6737.jpg')">
+          <img src="images/supra/IMG_6737.jpg" alt="SUPRA aplicación 9">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/supra/IMG_7669.jpg')">
+          <img src="images/supra/IMG_7669.jpg" alt="SUPRA aplicación 10">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 data-i18n="footer.company">TIU Pavimentos</h4>
+          <p data-i18n="footer.tagline">Soluciones innovadoras para pavimentos de alta calidad</p>
+        </div>
+
+        <div class="footer-section">
+          <h4 data-i18n="footer.contact">Contacto</h4>
+          <p>Ave. México - Puebla 55<br>
+          Villa Olímpica<br>
+          San Juan Cuautlancingo, Puebla<br>
+          C.P. 72700</p>
+        </div>
+
+        <div class="footer-section">
+          <h4 data-i18n="footer.info">Información</h4>
+          <p>ventas@tiupavimentos.com</p>
+          <p>Tel: +52 (222) 329 2107</p>
+          <p>Tel: +52 (222) 285 06 81</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> TIU Pavimentos. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-image" id="lightbox-image">
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="R.A.A.D. Type S - Tratamiento superficial con nanotecnología para pavimentos">
+  <title>R.A.A.D. Type S - TIU Pavimentos</title>
+  <link rel="stylesheet" href="https://use.typekit.net/xvo4tps.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo/logo.png" alt="TIU Pavimentos" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="nav-logo" style="display:none;" data-i18n="nav.logo">TIU PAVIMENTOS</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="index.html#productos" class="nav-link" data-i18n="nav.products">Productos</a></li>
+        <li><a href="contacto.html" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+        <li><button class="lang-toggle" onclick="toggleLanguage()">EN / ES</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Product Detail -->
+  <section class="section-lg" style="margin-top: 80px;">
+    <div class="container-narrow">
+      <a href="index.html" class="btn btn-sm" style="margin-bottom: var(--space-4);" data-i18n="product.back">← Volver a Inicio</a>
+
+      <h1 style="margin-bottom: var(--space-2);">R.A.A.D. Type S</h1>
+
+      <p style="font-size: var(--font-size-lg); color: var(--color-gray-600); margin-bottom: var(--space-6);" data-i18n="raad-type-s.intro">
+        Este tratamiento superficial está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos.
+      </p>
+
+      <p data-i18n="raad-type-s.description">
+        Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.
+      </p>
+
+      <!-- Uses Section -->
+      <h3 style="margin-top: var(--space-8); margin-bottom: var(--space-3);" data-i18n="product.uses">Usos Recomendados</h3>
+      <ul style="margin-bottom: var(--space-6); padding-left: var(--space-4); line-height: 1.8;">
+        <li data-i18n="raad-type-s.use1">Para zonas de operación de baja a regular como rodajes, vialidades lado tierra, vialidades internas, vialidades en plataforma y tercios laterales de pista.</li>
+      </ul>
+
+      <!-- Benefits Section -->
+      <h3 style="margin-bottom: var(--space-3);" data-i18n="product.benefits">Beneficios</h3>
+      <ul style="margin-bottom: var(--space-6); padding-left: var(--space-4); line-height: 1.8;">
+        <li data-i18n="raad-type-s.benefit1">No contiene Hidrocarburos aromáticos policíclicos (No-PAHs)</li>
+        <li data-i18n="raad-type-s.benefit2">Alto punto de reblandecimiento</li>
+        <li data-i18n="raad-type-s.benefit3">Mejor ductilidad en climas fríos</li>
+        <li data-i18n="raad-type-s.benefit4">Seguro para manejar y almacenar</li>
+        <li data-i18n="raad-type-s.benefit5">Muy buena resistencia química, resistencia a derrames</li>
+        <li data-i18n="raad-type-s.benefit6">Debido a su alto peso molecular, tiene una muy buena cohesión y alta resistencia a la abrasión</li>
+        <li data-i18n="raad-type-s.benefit7">Rápido tiempo de secado y curado, generalmente 2 horas</li>
+        <li data-i18n="raad-type-s.benefit8">Alta resistencia a rayos infrarrojos y UV</li>
+        <li data-i18n="raad-type-s.benefit9">Protege a los pavimentos del desgaste y factores ambientales</li>
+        <li data-i18n="raad-type-s.benefit10">Recomendado para zonas de bajo tránsito, tercios laterales de pista y márgenes</li>
+        <li data-i18n="raad-type-s.benefit11">No disminuye la fricción al contener minerales en su estructura interna y mantiene la macrotextura</li>
+      </ul>
+
+      <!-- Technical Sheet -->
+      <div style="margin: var(--space-8) 0; padding: var(--space-4); background: var(--color-gray-100); text-align: center;">
+        <h3 style="margin-bottom: var(--space-3);" data-i18n="product.technical-sheet">Ficha Técnica</h3>
+        <a href="docs/raad-type-s-ficha-tecnica.pdf" class="btn btn-primary" download data-i18n="product.download-pdf">Descargar PDF</a>
+      </div>
+
+      <!-- Gallery -->
+      <h3 style="margin-top: var(--space-8); margin-bottom: var(--space-4);" data-i18n="product.gallery">Galería</h3>
+      <div class="gallery">
+        <div class="gallery-item" onclick="openLightbox('images/type-s/IMG_0123.JPG')">
+          <img src="images/type-s/IMG_0123.JPG" alt="R.A.A.D. Type S aplicación 1">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/IMG_6472.jpg')">
+          <img src="images/type-s/IMG_6472.jpg" alt="R.A.A.D. Type S aplicación 2">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/IMG_8720.jpg')">
+          <img src="images/type-s/IMG_8720.jpg" alt="R.A.A.D. Type S aplicación 3">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/IMG_8734.jpg')">
+          <img src="images/type-s/IMG_8734.jpg" alt="R.A.A.D. Type S aplicación 4">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/IMG_9826.jpg')">
+          <img src="images/type-s/IMG_9826.jpg" alt="R.A.A.D. Type S aplicación 5">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/IMG_9828.jpg')">
+          <img src="images/type-s/IMG_9828.jpg" alt="R.A.A.D. Type S aplicación 6">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/F47C7C04-7EF9-4393-A34A-6F18682D0A98.jpg')">
+          <img src="images/type-s/F47C7C04-7EF9-4393-A34A-6F18682D0A98.jpg" alt="R.A.A.D. Type S aplicación 7">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/type-s/PHOTO-2024-03-05-17-34-28.jpg')">
+          <img src="images/type-s/PHOTO-2024-03-05-17-34-28.jpg" alt="R.A.A.D. Type S aplicación 8">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 data-i18n="footer.company">TIU Pavimentos</h4>
+          <p data-i18n="footer.tagline">Soluciones innovadoras para pavimentos de alta calidad</p>
+        </div>
+
+        <div class="footer-section">
+          <h4 data-i18n="footer.contact">Contacto</h4>
+          <p>Ave. México - Puebla 55<br>
+          Villa Olímpica<br>
+          San Juan Cuautlancingo, Puebla<br>
+          C.P. 72700</p>
+        </div>
+
+        <div class="footer-section">
+          <h4 data-i18n="footer.info">Información</h4>
+          <p>ventas@tiupavimentos.com</p>
+          <p>Tel: +52 (222) 329 2107</p>
+          <p>Tel: +52 (222) 285 06 81</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> TIU Pavimentos. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-image" id="lightbox-image">
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
