@@ -22,10 +22,6 @@ const translations = {
     },
     products: {
       title: 'Nuestros Productos',
-      'page-title': 'Nuestros Productos',
-      'page-subtitle': 'Soluciones innovadoras para la protección y mantenimiento de pavimentos asfálticos',
-      'view-all': 'Ver Todos los Productos',
-      'learn-more': 'Más Información',
       'type-s': {
         short: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.'
       },
@@ -154,10 +150,6 @@ const translations = {
     },
     products: {
       title: 'Our Products',
-      'page-title': 'Our Products',
-      'page-subtitle': 'Innovative solutions for the protection and maintenance of asphalt pavements',
-      'view-all': 'View All Products',
-      'learn-more': 'Learn More',
       'type-s': {
         short: 'Surface treatment that protects and waterproofs asphalt pavements with nanotechnology, offering high durability and resistance to heavy traffic.'
       },
