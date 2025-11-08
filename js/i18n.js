@@ -3,7 +3,7 @@
 const translations = {
   es: {
     nav: {
-      logo: 'TIU PAVIMENTOS',
+      logo: 'CARBONITTE MÉXICO',
       home: 'Inicio',
       products: 'Productos',
       contact: 'Contacto'
@@ -22,6 +22,7 @@ const translations = {
     },
     products: {
       title: 'Nuestros Productos',
+      subtitle: 'Soluciones innovadoras y tecnología de vanguardia',
       'type-s': {
         short: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.'
       },
@@ -39,7 +40,7 @@ const translations = {
       }
     },
     product: {
-      back: '← Volver a Inicio',
+      back: '← Volver a Productos',
       uses: 'Usos Recomendados',
       benefits: 'Beneficios',
       'technical-sheet': 'Ficha Técnica',
@@ -122,8 +123,8 @@ const translations = {
       'cta-button': 'Enviar Correo'
     },
     footer: {
-      company: 'TIU Pavimentos',
-      tagline: 'Soluciones innovadoras para pavimentos de alta calidad',
+      company: 'Carbonitte',
+      tagline: 'Soluciones innovadoras y tecnología de vanguardia',
       contact: 'Contacto',
       info: 'Información',
       rights: 'Todos los derechos reservados.'
@@ -131,7 +132,7 @@ const translations = {
   },
   en: {
     nav: {
-      logo: 'TIU PAVEMENTS',
+      logo: 'CARBONITTE MEXICO',
       home: 'Home',
       products: 'Products',
       contact: 'Contact'
@@ -150,6 +151,7 @@ const translations = {
     },
     products: {
       title: 'Our Products',
+      subtitle: 'Innovative solutions and cutting-edge technology',
       'type-s': {
         short: 'Surface treatment that protects and waterproofs asphalt pavements with nanotechnology, offering high durability and resistance to heavy traffic.'
       },
@@ -167,7 +169,7 @@ const translations = {
       }
     },
     product: {
-      back: '← Back to Home',
+      back: '← Back to Products',
       uses: 'Recommended Uses',
       benefits: 'Benefits',
       'technical-sheet': 'Technical Datasheet',
@@ -250,8 +252,8 @@ const translations = {
       'cta-button': 'Send Email'
     },
     footer: {
-      company: 'TIU Pavements',
-      tagline: 'Innovative solutions for high-quality pavements',
+      company: 'Carbonitte',
+      tagline: 'Innovative solutions and cutting-edge technology',
       contact: 'Contact',
       info: 'Information',
       rights: 'All rights reserved.'

@@ -1,5 +1,5 @@
 /* ============================================
-   TIU PAVIMENTOS - Ultra-Minimal Design System
+   CARBONITTE MÉXICO - Ultra-Minimal Design System
    ============================================ */
 
 /* CSS Variables - Design Tokens */
@@ -209,7 +209,7 @@ p {
 }
 
 .nav-logo-img {
-  height: 45px;
+  height: 60px;
   width: auto;
   transition: transform var(--transition-base);
 }
