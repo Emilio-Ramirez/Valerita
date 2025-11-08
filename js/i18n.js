@@ -159,8 +159,7 @@ const translations = {
       'view-all': 'View All Products',
       'learn-more': 'Learn More',
       'type-s': {
-        short: 'Surface treatment that protects and waterproofs asphalt pavements with nanotechnology.',
-        description: 'Surface treatment that protects and waterproofs asphalt pavements with nanotechnology, offering high durability and resistance to heavy traffic.'
+        short: 'Surface treatment that protects and waterproofs asphalt pavements with nanotechnology, offering high durability and resistance to heavy traffic.'
       },
       supra: {
         short: 'Surface application with modified asphalt base that restores moderately deteriorated pavements.',
@@ -184,32 +183,63 @@ const translations = {
       gallery: 'Gallery'
     },
     'raad-type-s': {
-      intro: 'This surface treatment is designed to protect and waterproof asphalt pavements, providing a comfortable and safe riding surface on highways, urban areas and airport runways.',
-      description: 'Developed in the United States by Carbonyte Inc., it incorporates nanotechnology in its structure, which allows the use of very low penetration asphalts together with various types of polymers and ceramics. This gives it exceptional durability and superior resistance to heavy and intense traffic, guaranteeing safer and longer-lasting pavements.',
-      use1: 'For low to regular operation areas such as taxiways, landside roads, internal roads, platform roads and runway lateral thirds.',
-      benefit1: 'Does not contain Polycyclic Aromatic Hydrocarbons (Non-PAHs)',
-      benefit2: 'High softening point',
-      benefit3: 'Better ductility in cold climates',
-      benefit4: 'Safe to handle and store',
-      benefit5: 'Very good chemical resistance, spill resistance',
-      benefit6: 'Due to its high molecular weight, it has very good cohesion and high abrasion resistance',
-      benefit7: 'Fast drying and curing time, generally 2 hours',
-      benefit8: 'High resistance to infrared and UV rays',
-      benefit9: 'Protects pavements from wear and environmental factors',
-      benefit10: 'Recommended for low traffic areas, runway lateral thirds and margins',
-      benefit11: 'Does not decrease friction by containing minerals in its internal structure and maintains macrotexture'
+      intro: 'This surface treatment is designed to protect and waterproof asphalt pavements, providing a comfortable and safe riding surface on highways, urban areas, and airport runways. Developed in the United States by Carbonyte Inc., it incorporates nanotechnology in its structure, which allows the use of very low penetration asphalts along with various types of polymers and ceramics. This gives it exceptional durability and superior resistance to heavy and intense traffic, guaranteeing safer and longer-lasting pavements.',
+      use1: 'New pavements as a protective layer.',
+      use2: 'Pavements with moderate cracking.',
+      use3: 'Pavements with surface wear.',
+      use4: 'Areas subject to fuel and oil spills (special formulation).',
+      use5: 'Areas with time restrictions for working: shopping centers, urban areas, airports.',
+      use6: 'Riding surfaces with low friction coefficient.',
+      use7: 'In general, any pavement where you want to increase service life and improve appearance.',
+      benefit1: 'Protects asphalt layers from oxidation caused by environmental factors.',
+      benefit2: 'Renews the riding surface.',
+      benefit3: 'Improves microtexture and increases friction values.',
+      benefit4: 'Prevents water penetration to underlying layers.',
+      benefit5: 'Improves pavement appearance, providing a uniform surface.'
     },
     supra: {
-      intro: 'Surface application with polymer-modified asphalt base and ceramic fibers that restores moderately deteriorated pavements, offering high strength, durability and a safe surface.',
-      description: 'SUPRA is an advanced solution for pavement rehabilitation that combines latest generation polymer technology with ceramic fibers, creating a resistant and durable surface that protects and extends the lifespan of existing pavement.'
+      intro: 'It is a surface application composed of a polymer-modified asphalt base and high-specification stone aggregate, designed to restore loss of fines and provide a comfortable and safe riding surface on asphalt pavements. This product allows efficient recovery of pavements with moderate deterioration. Its fast drying and reinforced structure with ceramic fibers, along with the modified asphalt base, provide greater resistance and durability, significantly extending the pavement\'s service life.',
+      use1: 'Designed to be applied on asphalt surfaces with moderate to severe raveling: highways, freeways, airport runways, taxiways and parking lots.',
+      use2: 'Functions as a wearing surface and for the protection of asphalt pavements in general',
+      benefit1: 'Restores loss of fines and retains accelerated deterioration of asphalt layers.',
+      benefit2: 'Waterproofs the surface.',
+      benefit3: 'Protects the existing asphalt layer.',
+      benefit4: 'Seals small and incipient cracks.',
+      benefit5: 'Fast curing, allowing traffic in 2 to 4 hours.',
+      benefit6: 'Provides a comfortable and safe riding surface.',
+      benefit7: 'Excellent microtexture.',
+      benefit8: 'High resistance to torsion and impact.',
+      benefit9: 'Applicable in layers, allowing control of drying times.'
     },
     'raad-rc': {
-      intro: 'TractionShield is a plural and reactive asphalt sealer based on polymer-modified asphalts, eco-friendly and water-based, that integrates with pavement sealing surfaces with high efficiency, safety and sustainability.',
-      description: 'This innovative product combines the effectiveness of traditional sealers with an eco-friendly water-based formulation, providing a sustainable solution for the maintenance and protection of asphalt pavements. Its integration capacity with existing pavement guarantees a durable and efficient seal.'
+      intro: 'Plural and reactive asphalt sealer, manufactured with high molecular weight polymer-modified asphalts. It is designed to fully integrate with existing pavement, efficiently sealing asphalt surfaces in airports, streets and highways.',
+      description: 'It is an ecological and environmentally friendly solution, as it is water-based, contains no solvents and its preparation and application process requires heating, guaranteeing safety and sustainability without compromising its performance.',
+      use1: 'Areas subject to fuel and oil spills.',
+      use2: 'Areas with time restrictions for working: shopping centers, urban areas, airports.',
+      use3: 'Protects asphalt layers from oxidation caused by environmental factors.',
+      use4: 'Rejuvenates the riding surface.',
+      use5: 'Protects against water absorption in surface microcracks.',
+      use6: 'Pavements showing wear.',
+      benefit1: 'Resistant to aircraft fuels (Jet A JP-8), oil and lubricant.',
+      benefit2: 'Unique reactive that chemically attacks oxides present on the exposed aggregate surface.',
+      benefit3: 'Drying and curing both day and night.',
+      benefit4: 'Virtually zero VOC (volatile organic compounds).'
     },
     h25: {
-      intro: 'It is a modified hydrocarbon additive with high molecular weight thermoplastic derived from asphalt, which improves pavement surface, is safe (PAH-free), durable, fast-drying and applicable in different conditions.',
-      description: 'H-25 is a versatile and safe solution for improving asphalt pavements. Its formulation free of polycyclic aromatic hydrocarbons (PAH) guarantees safety both in its application and long-term use, while its fast drying time allows rapid service of treated surfaces.'
+      intro: 'It is a modified hydrocarbon additive, composed of an emulsified high molecular weight thermoplastic derived from asphalt. This innovative product significantly improves the surface of asphalt pavements, providing efficient protection against environmental factors and moderate traffic. Additionally, it is formulated without the presence of PAH (Polycyclic Aromatic Hydrocarbons), compounds known for their carcinogenic potential, which guarantees a safer and more health-friendly option.',
+      description: 'Its structure, enriched with polymers, low penetration asphalts and high-quality minerals, gives it exceptional durability. Fast-drying, it can be applied both at night and in areas without direct sun exposure, ensuring flexibility in use and maximum efficiency in different conditions.',
+      use1: 'For low to regular operation areas such as taxiways, landside roads, internal roads, platform roads and runway lateral thirds.',
+      benefit1: 'Does not contain Polycyclic Aromatic Hydrocarbons (Non-PAHs)',
+      benefit2: 'High softening point.',
+      benefit3: 'Better ductility in cold climates.',
+      benefit4: 'Safe to handle and store.',
+      benefit5: 'Very good chemical resistance, spill resistance.',
+      benefit6: 'Due to its high molecular weight, it has very good cohesion and high abrasion resistance.',
+      benefit7: 'Fast drying and curing time, generally 2 hours.',
+      benefit8: 'High resistance to infrared and UV rays.',
+      benefit9: 'Protects pavements from wear and environmental factors.',
+      benefit10: 'Recommended for low traffic areas, runway lateral thirds and margins.',
+      benefit11: 'Does not decrease friction by containing minerals in its internal structure and maintains macrotexture.'
     },
     contact: {
       title: 'Contact',
