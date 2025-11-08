@@ -51,6 +51,11 @@ y mejora significativamente la fricción y el desempeño superficial del pavimen
 Nuestros Productos
 ```
 
+### Subtítulo de Sección
+```
+Soluciones innovadoras y tecnología de vanguardia
+```
+
 ---
 
 ### Producto 1: R.A.A.D. Type S
@@ -158,7 +163,7 @@ Es una solución ecológica y respetuosa con el medio ambiente, ya que es a base
 
 **Descripción Corta (para tarjeta):**
 ```
-Es un aditivo de hidrocarburos modificados con termoplástico de alto peso molecular derivado del asfalto, que mejora la superficie de pavimentos, es seguro (sin HAP), duradero, de secado rápido y aplicable en distintas condiciones.
+Aditivo de hidrocarburos modificados que mejora la superficie de pavimentos, seguro, duradero y de secado rápido.
 ```
 
 **Introducción (página del producto):**
@@ -191,7 +196,19 @@ Su estructura, enriquecida con polímeros, asfaltos de baja penetración y miner
 
 ## 📞 PÁGINA DE CONTACTO
 
-### Dirección
+### Título Principal
+```
+Contacto
+```
+
+### Sección: Información de Contacto
+
+**Título de Sección:**
+```
+Información de Contacto
+```
+
+**Dirección:**
 ```
 Ave. México - Puebla 55
 Villa Olímpica
@@ -199,18 +216,23 @@ San Juan Cuautlancingo, Puebla
 C.P. 72700
 ```
 
-### Email
+**Correo Electrónico:**
 ```
 ventas@tiupavimentos.com
 ```
 
-### Teléfonos
+**Teléfono:**
 ```
 +52 (222) 329 2107
 +52 (222) 285 06 81
 ```
 
-### Horario de Atención
+### Sección: Horario de Atención
+
+**Título de Sección:**
+```
+Horario de Atención
+```
 
 **Lunes a Viernes:**
 ```
@@ -222,6 +244,23 @@ ventas@tiupavimentos.com
 9:00 AM - 2:00 PM
 ```
 
+### Sección: Call to Action
+
+**Título:**
+```
+¿Listo para Comenzar tu Proyecto?
+```
+
+**Texto:**
+```
+Contáctanos hoy para obtener una cotización personalizada
+```
+
+**Botón:**
+```
+Enviar Correo
+```
+
 ---
 
 ## 🖼️ ESTRUCTURA DE IMÁGENES
@@ -231,21 +270,23 @@ ventas@tiupavimentos.com
 Cada producto tiene su propia carpeta de imágenes en `images/`:
 
 **R.A.A.D. Type S** → `images/type-s/`
-- Total: 23 imágenes disponibles
-- Actualmente en galería: 8 imágenes
-- Imágenes disponibles para agregar: 15
+- Total: 15 imágenes disponibles
+- Actualmente en galería: 14 imágenes
+- Imágenes disponibles para agregar: 1
 
 **SUPRA** → `images/supra/`
-- Total: 17 imágenes disponibles
-- Actualmente en galería: 10 imágenes
-- Imágenes disponibles para agregar: 7
+- Total: 12 imágenes disponibles
+- Actualmente en galería: 12 imágenes
+- Todas las imágenes están en uso
 
 **R.A.A.D. RC (TractionShield)** → `images/tractionshield/`
-- Total: 5 imágenes disponibles
+- Total: 21 imágenes disponibles
+- Actualmente en galería: 21 imágenes
 - Todas las imágenes están en uso
 
 **H-25** → `images/h25/`
-- Total: 5 imágenes disponibles
+- Total: 15 imágenes disponibles
+- Actualmente en galería: 15 imágenes
 - Todas las imágenes están en uso
 
 ### Otras Imágenes
