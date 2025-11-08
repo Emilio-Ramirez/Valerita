@@ -125,6 +125,7 @@ const translations = {
     footer: {
       company: 'Carbonitte',
       tagline: 'Soluciones innovadoras y tecnología de vanguardia',
+      address: 'Dirección',
       contact: 'Contacto',
       info: 'Información',
       rights: 'Todos los derechos reservados.'
@@ -254,6 +255,7 @@ const translations = {
     footer: {
       company: 'Carbonitte',
       tagline: 'Innovative solutions and cutting-edge technology',
+      address: 'Address',
       contact: 'Contact',
       info: 'Information',
       rights: 'All rights reserved.'
