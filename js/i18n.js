@@ -9,8 +9,8 @@ const translations = {
       contact: 'Contacto'
     },
     hero: {
-      title: 'Soluciones Innovadoras para Pavimentos',
-      subtitle: 'Tecnología de vanguardia para pavimentos duraderos y seguros'
+      title: 'Carbonitte México',
+      subtitle: 'Aerospace Coating Tecnology'
     },
     about: {
       title: 'Quiénes Somos',
@@ -18,9 +18,7 @@ const translations = {
     },
     tech: {
       title: 'Nuestra Tecnología',
-      p1: 'Nuestros recubrimientos asfálticos ofrecen un alto desempeño y durabilidad gracias a su formulación con minerales, cerámicas, polímeros de última generación; incluyendo SEBS, SBS, EVA y Hule Molido de Llanta, los cuales proporcionan una gran flexibilidad, estabilidad térmica y excelente integración al pavimento existente.',
-      p2: 'Su alto peso molecular y elevado punto de reblandecimiento permiten resistir temperaturas extremas y cargas de tráfico intenso. Su acabado negro satinado crea una superficie fuerte y a la vez flexible, capaz de proteger el pavimento frente al desgaste por neumáticos, radiación solar y humedad.',
-      p3: 'En los sistemas de aplicación R.A.A.D Type S, R.A.A.D RC (TractionShield) Y SUPRA, se incorpora material basáltico triturado, que aporta una microtextura superior y mejora significativamente la fricción y el desempeño superficial del pavimento.'
+      p1: 'Nuestros recubrimientos asfálticos ofrecen un alto desempeño y durabilidad gracias a su formulación con minerales, cerámicas, polímeros de última generación; incluyendo SEBS, SBS, EVA y Hule Molido de Llanta, los cuales proporcionan una gran flexibilidad, estabilidad térmica y excelente integración al pavimento existente. Su alto peso molecular y elevado punto de reblandecimiento permiten resistir temperaturas extremas y cargas de tráfico intenso. Su acabado negro satinado crea una superficie fuerte y a la vez flexible, capaz de proteger el pavimento frente al desgaste por neumáticos, radiación solar y humedad. En los sistemas de aplicación R.A.A.D Type S, R.A.A.D RC (TractionShield) Y SUPRA, se incorpora material basáltico triturado, que aporta una microtextura superior y mejora significativamente la fricción y el desempeño superficial del pavimento.'
     },
     products: {
       title: 'Nuestros Productos',
@@ -29,8 +27,7 @@ const translations = {
       'view-all': 'Ver Todos los Productos',
       'learn-more': 'Más Información',
       'type-s': {
-        short: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología.',
-        description: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.'
+        short: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.'
       },
       supra: {
         short: 'Aplicación superficial con base asfáltica modificada que restaura pavimentos moderadamente deteriorados.',
@@ -54,32 +51,63 @@ const translations = {
       gallery: 'Galería'
     },
     'raad-type-s': {
-      intro: 'Este tratamiento superficial está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos.',
-      description: 'Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.',
-      use1: 'Para zonas de operación de baja a regular como rodajes, vialidades lado tierra, vialidades internas, vialidades en plataforma y tercios laterales de pista.',
-      benefit1: 'No contiene Hidrocarburos aromáticos policíclicos (No-PAHs)',
-      benefit2: 'Alto punto de reblandecimiento',
-      benefit3: 'Mejor ductilidad en climas fríos',
-      benefit4: 'Seguro para manejar y almacenar',
-      benefit5: 'Muy buena resistencia química, resistencia a derrames',
-      benefit6: 'Debido a su alto peso molecular, tiene una muy buena cohesión y alta resistencia a la abrasión',
-      benefit7: 'Rápido tiempo de secado y curado, generalmente 2 horas',
-      benefit8: 'Alta resistencia a rayos infrarrojos y UV',
-      benefit9: 'Protege a los pavimentos del desgaste y factores ambientales',
-      benefit10: 'Recomendado para zonas de bajo tránsito, tercios laterales de pista y márgenes',
-      benefit11: 'No disminuye la fricción al contener minerales en su estructura interna y mantiene la macrotextura'
+      intro: 'Este tratamiento superficial está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos. Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.',
+      use1: 'Pavimentos nuevos como capa de protección.',
+      use2: 'Pavimentos con agrietamientos moderados.',
+      use3: 'Pavimentos con desgaste superficial.',
+      use4: 'Zonas sometidas al derrame de combustibles y aceites (formulación especial).',
+      use5: 'Zonas con restricciones de horarios para trabajar: centros comerciales, zonas urbanas, aeropuertos.',
+      use6: 'Superficies de rodamiento con bajo coeficiente de fricción.',
+      use7: 'En general, cualquier pavimento al que se desee incrementar la vida útil y mejorar su apariencia.',
+      benefit1: 'Protege las carpetas asfálticas de la oxidación, producto de los factores ambientales.',
+      benefit2: 'Renueva la superficie de rodamiento.',
+      benefit3: 'Mejora la microtextura e incrementa los valores de fricción.',
+      benefit4: 'Previene la penetración de agua a las capas subyacentes.',
+      benefit5: 'Mejora la apariencia del pavimento, proporcionando una superficie uniforme.'
     },
     supra: {
-      intro: 'Aplicación superficial con base asfáltica modificada con polímeros y fibras cerámicas que restaura pavimentos moderadamente deteriorados, ofreciendo alta resistencia, durabilidad y una superficie segura.',
-      description: 'SUPRA es una solución avanzada para la rehabilitación de pavimentos que combina tecnología de polímeros de última generación con fibras cerámicas, creando una superficie resistente y duradera que protege y extiende la vida útil del pavimento existente.'
+      intro: 'Se trata de una aplicación superficial compuesta por una base asfáltica modificada con polímeros y agregado pétreo de altas especificaciones, diseñada para restaurar la pérdida de finos y ofrecer una superficie de rodamiento cómoda y segura en pavimentos asfálticos. Este producto permite recuperar pavimentos con deterioros moderados de manera eficiente. Su secado rápido y su estructura reforzada con fibras cerámicas, junto con la base asfáltica modificada, proporcionan una mayor resistencia y durabilidad, extendiendo significativamente la vida útil del pavimento.',
+      use1: 'Diseñado para aplicarse sobre superficies asfálticas con desgranamientos moderados a severos: carreteras, autopistas, pistas de aeropuertos, rodajes y estacionamientos.',
+      use2: 'Funciona como superficie de desgaste y para la protección de pavimentos asfálticos en general',
+      benefit1: 'Restaura la pérdida de finos y retiene el deterioro acelerado de carpetas asfálticas.',
+      benefit2: 'Impermeabiliza la superficie.',
+      benefit3: 'Protege la carpeta asfáltica existente.',
+      benefit4: 'Sella los agrietamientos pequeños e incipientes.',
+      benefit5: 'Curado rápido, permitiendo la circulación en 2 a 4 horas.',
+      benefit6: 'Proporciona una superficie de rodamiento cómoda y segura.',
+      benefit7: 'Excelente microtextura.',
+      benefit8: 'Alta resistencia a la torsión e impacto.',
+      benefit9: 'Aplicable en capas, lo que permite controlar los tiempos de secado.'
     },
     'raad-rc': {
-      intro: 'TractionShield es un sellador asfáltico plural y reactivo a base de asfaltos modificados con polímeros, ecológico y en base agua, que se integra al pavimento sellando superficies con alta eficiencia, seguridad y sostenibilidad.',
-      description: 'Este innovador producto combina la efectividad de los selladores tradicionales con una formulación ecológica en base agua, proporcionando una solución sustentable para el mantenimiento y protección de pavimentos asfálticos. Su capacidad de integración con el pavimento existente garantiza un sellado duradero y eficiente.'
+      intro: 'Sellador asfáltico plural y reactivo, fabricado a base de asfaltos modificados con polímeros de alto peso molecular. Está diseñado para integrarse completamente al pavimento existente, sellando de manera eficiente superficies asfálticas en aeropuertos, calles y autopistas.',
+      description: 'Es una solución ecológica y respetuosa con el medio ambiente, ya que es a base de agua, no contiene solventes y su proceso de preparación y aplicación requiere calentamiento, garantizando seguridad y sostenibilidad sin comprometer su desempeño.',
+      use1: 'Zonas sometidas al derrame de combustibles y aceites.',
+      use2: 'Zonas con restricciones de horarios para trabajar: centros comerciales, zonas urbanas, aeropuertos.',
+      use3: 'Protege las carpetas asfálticas de la oxidación causada por factores ambientales.',
+      use4: 'Rejuvenece la superficie de rodamiento.',
+      use5: 'Protege contra la absorción de agua en las microfisuras de las superficies.',
+      use6: 'Pavimentos que presenten desgaste.',
+      benefit1: 'Resistente a combustibles de aeronaves (Jet A JP-8), al aceite y lubricante.',
+      benefit2: 'Reactivo único que ataca químicamente los óxidos presentes en la superficie expuesta del agregado.',
+      benefit3: 'Secado y curado tanto diurno como nocturno.',
+      benefit4: 'Prácticamente cero VOC (compuestos orgánicos volátiles).'
     },
     h25: {
-      intro: 'Es un aditivo de hidrocarburos modificados con termoplástico de alto peso molecular derivado del asfalto, que mejora la superficie de pavimentos, es seguro (sin HAP), duradero, de secado rápido y aplicable en distintas condiciones.',
-      description: 'H-25 es una solución versátil y segura para el mejoramiento de pavimentos asfálticos. Su formulación libre de hidrocarburos aromáticos policíclicos (HAP) garantiza la seguridad tanto en su aplicación como en su uso a largo plazo, mientras que su rápido tiempo de secado permite una rápida puesta en servicio de las superficies tratadas.'
+      intro: 'Es un aditivo de hidrocarburos modificados, compuesto por un termoplástico de alto peso molecular emulsionado, derivado del asfalto. Este innovador producto mejora significativamente la superficie de los pavimentos asfálticos, proporcionando una protección eficiente contra factores ambientales y el tráfico moderado. Además, está formulado sin la presencia de HAP (Hidrocarburos Aromáticos Policíclicos), compuestos conocidos por su potencial cancerígeno, lo que garantiza una opción más segura y amigable con la salud.',
+      description: 'Su estructura, enriquecida con polímeros, asfaltos de baja penetración y minerales de alta calidad, le otorga una durabilidad excepcional. De secado rápido, puede ser aplicado tanto de noche como en áreas sin exposición directa al sol, asegurando flexibilidad en su uso y máxima eficiencia en diferentes condiciones.',
+      use1: 'Para zonas de operación de baja a regular como  rodajes, vialidades lado tierra, vialidades internas, vialidades en plataforma y tercios laterales de pista.',
+      benefit1: 'No contiene Hidrocarburos aromáticos policíclicos (No-PAHs)',
+      benefit2: 'Alto punto de reblandecimiento.',
+      benefit3: 'Mejor ductilidad en climas fríos.',
+      benefit4: 'Seguro para manejar y almacenar.',
+      benefit5: 'Muy buena resistencia química, resistencia a derrames.',
+      benefit6: 'Debido a su alto peso molecular, tiene una muy buena cohesión y alta resistencia a la abrasión.',
+      benefit7: 'Rápido tiempo de secado y curado, generalmente 2 horas.',
+      benefit8: 'Alta resistencia a rayos infrarrojos y UV.',
+      benefit9: 'Protege a los pavimentos del desgaste y factores ambientales.',
+      benefit10: 'Recomendado para zonas de bajo tránsito, tercios laterales de pista y márgenes.',
+      benefit11: 'No disminuye la fricción al contener minerales en su estructura interna y mantiene la macrotextura.'
     },
     contact: {
       title: 'Contacto',
@@ -113,8 +141,8 @@ const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'Innovative Pavement Solutions',
-      subtitle: 'Cutting-edge technology for durable and safe pavements'
+      title: 'Carbonitte Mexico',
+      subtitle: 'Aerospace Coating Technology'
     },
     about: {
       title: 'Who We Are',
@@ -122,9 +150,7 @@ const translations = {
     },
     tech: {
       title: 'Our Technology',
-      p1: 'Our asphalt coatings offer high performance and durability thanks to their formulation with minerals, ceramics, and latest generation polymers; including SEBS, SBS, EVA and Ground Tire Rubber, which provide great flexibility, thermal stability and excellent integration with existing pavement.',
-      p2: 'Their high molecular weight and elevated softening point allow them to resist extreme temperatures and heavy traffic loads. Their satin black finish creates a strong yet flexible surface, capable of protecting the pavement against tire wear, solar radiation and moisture.',
-      p3: 'In the R.A.A.D Type S, R.A.A.D RC (TractionShield) and SUPRA application systems, crushed basaltic material is incorporated, which provides superior microtexture and significantly improves the friction and surface performance of the pavement.'
+      p1: 'Our asphalt coatings offer high performance and durability thanks to their formulation with minerals, ceramics, and latest generation polymers; including SEBS, SBS, EVA and Ground Tire Rubber, which provide great flexibility, thermal stability and excellent integration with existing pavement. Their high molecular weight and elevated softening point allow them to resist extreme temperatures and heavy traffic loads. Their satin black finish creates a strong yet flexible surface, capable of protecting the pavement against tire wear, solar radiation and moisture. In the R.A.A.D Type S, R.A.A.D RC (TractionShield) and SUPRA application systems, crushed basaltic material is incorporated, which provides superior microtexture and significantly improves the friction and surface performance of the pavement.'
     },
     products: {
       title: 'Our Products',
