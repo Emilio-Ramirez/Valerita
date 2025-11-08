@@ -8,12 +8,12 @@
 
 ### Hero (Título Principal)
 ```
-Soluciones Innovadoras para Pavimentos
+Carbonitte México
 ```
 
 ### Hero (Subtítulo)
 ```
-Tecnología de vanguardia para pavimentos duraderos y seguros
+Aerospace Coating Tecnology
 ```
 
 ---
@@ -21,10 +21,7 @@ Tecnología de vanguardia para pavimentos duraderos y seguros
 ### Quiénes Somos
 
 ```
-Somos una empresa dedicada a ofrecer soluciones innovadoras que fortalecen
-la seguridad y prolongan la vida útil de los pavimentos. Combinamos materiales
-de la más alta calidad con tecnologías de vanguardia a nivel mundial para
-garantizar resultados duraderos, eficientes y sostenibles.
+Somos una empresa dedicada a ofrecer soluciones innovadoras que fortalecen la seguridad y prolongan la vida útil de los pavimentos. Combinamos materiales de la más alta calidad con tecnologías de vanguardia a nivel mundial para garantizar resultados duraderos, eficientes y sostenibles.
 ```
 
 ---
@@ -37,20 +34,10 @@ Nuestros recubrimientos asfálticos ofrecen un alto desempeño y durabilidad
 gracias a su formulación con minerales, cerámicas, polímeros de última
 generación; incluyendo SEBS, SBS, EVA y Hule Molido de Llanta, los cuales
 proporcionan una gran flexibilidad, estabilidad térmica y excelente integración
-al pavimento existente.
-```
-
-**Párrafo 2:**
-```
-Su alto peso molecular y elevado punto de reblandecimiento permiten resistir
+al pavimento existente. Su alto peso molecular y elevado punto de reblandecimiento permiten resistir
 temperaturas extremas y cargas de tráfico intenso. Su acabado negro satinado
 crea una superficie fuerte y a la vez flexible, capaz de proteger el pavimento
-frente al desgaste por neumáticos, radiación solar y humedad.
-```
-
-**Párrafo 3:**
-```
-En los sistemas de aplicación R.A.A.D Type S, R.A.A.D RC (TractionShield) Y SUPRA,
+frente al desgaste por neumáticos, radiación solar y humedad. En los sistemas de aplicación R.A.A.D Type S, R.A.A.D RC (TractionShield) Y SUPRA,
 se incorpora material basáltico triturado, que aporta una microtextura superior
 y mejora significativamente la fricción y el desempeño superficial del pavimento.
 ```
@@ -70,47 +57,34 @@ Nuestros Productos
 
 **Descripción Corta (para tarjeta):**
 ```
-Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos
-con nanotecnología.
+Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.
+
 ```
 
 **Introducción (página del producto):**
 ```
-Este tratamiento superficial está diseñado para proteger e impermeabilizar
-pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda
-y segura en carreteras, zonas urbanas y pistas de aeropuertos.
-```
-
-**Descripción Completa:**
-```
-Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología
-en su estructura, lo que permite el uso de asfaltos de muy baja penetración
-junto con diversos tipos de polímeros y cerámicas. Esto le confiere una
-durabilidad excepcional y una resistencia superior al tráfico intenso y pesado,
-garantizando pavimentos más seguros y de larga vida útil.
+Este tratamiento superficial está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos. Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.
 ```
 
 **Usos Recomendados:**
 ```
-- Para zonas de operación de baja a regular como rodajes, vialidades lado tierra,
-  vialidades internas, vialidades en plataforma y tercios laterales de pista.
+⦁	Pavimentos nuevos como capa de protección.
+⦁	Pavimentos con agrietamientos moderados.
+⦁	Pavimentos con desgaste superficial.
+⦁	Zonas sometidas al derrame de combustibles y aceites (formulación especial).
+⦁	Zonas con restricciones de horarios para trabajar: centros comerciales, zonas urbanas, aeropuertos.
+⦁	Superficies de rodamiento con bajo coeficiente de fricción.
+⦁	En general, cualquier pavimento al que se desee incrementar la vida útil y mejorar su apariencia.
 ```
 
 **Beneficios:**
 ```
-- No contiene Hidrocarburos aromáticos policíclicos (No-PAHs)
-- Alto punto de reblandecimiento
-- Mejor ductilidad en climas fríos
-- Seguro para manejar y almacenar
-- Muy buena resistencia química, resistencia a derrames
-- Debido a su alto peso molecular, tiene una muy buena cohesión y alta resistencia
-  a la abrasión
-- Rápido tiempo de secado y curado, generalmente 2 horas
-- Alta resistencia a rayos infrarrojos y UV
-- Protege a los pavimentos del desgaste y factores ambientales
-- Recomendado para zonas de bajo tránsito, tercios laterales de pista y márgenes
-- No disminuye la fricción al contener minerales en su estructura interna y mantiene
-  la macrotextura
+⦁	Protege las carpetas asfálticas de la oxidación, producto de los factores ambientales.
+⦁	Renueva la superficie de rodamiento.
+⦁	Mejora la microtextura e incrementa los valores de fricción.
+⦁	Previene la penetración de agua a las capas subyacentes.
+⦁	Mejora la apariencia del pavimento, proporcionando una superficie uniforme.
+
 ```
 
 ---
@@ -125,20 +99,27 @@ moderadamente deteriorados.
 
 **Introducción (página del producto):**
 ```
-Aplicación superficial con base asfáltica modificada con polímeros y fibras
-cerámicas que restaura pavimentos moderadamente deteriorados, ofreciendo alta
-resistencia, durabilidad y una superficie segura.
+Se trata de una aplicación superficial compuesta por una base asfáltica modificada con polímeros y agregado pétreo de altas especificaciones, diseñada para restaurar la pérdida de finos y ofrecer una superficie de rodamiento cómoda y segura en pavimentos asfálticos. Este producto permite recuperar pavimentos con deterioros moderados de manera eficiente.
+Su secado rápido y su estructura reforzada con fibras cerámicas, junto con la base asfáltica modificada, proporcionan una mayor resistencia y durabilidad, extendiendo significativamente la vida útil del pavimento.
+
+**Usos Recomendados:**
+```
+⦁	Diseñado para aplicarse sobre superficies asfálticas con desgranamientos moderados a severos: carreteras, autopistas, pistas de aeropuertos, rodajes y estacionamientos.
+⦁	Funciona como superficie de desgaste y para la protección de pavimentos asfálticos en general
 ```
 
-**Descripción Completa:**
+**Beneficios:**
 ```
-SUPRA es una solución avanzada para la rehabilitación de pavimentos que combina
-tecnología de polímeros de última generación con fibras cerámicas, creando una
-superficie resistente y duradera que protege y extiende la vida útil del pavimento
-existente.
+⦁	Restaura la pérdida de finos y retiene el deterioro acelerado de carpetas asfálticas.
+⦁	Impermeabiliza la superficie.
+⦁	Protege la carpeta asfáltica existente.
+⦁	Sella los agrietamientos pequeños e incipientes.
+⦁	Curado rápido, permitiendo la circulación en 2 a 4 horas.
+⦁	Proporciona una superficie de rodamiento cómoda y segura.
+⦁	Excelente microtextura.
+⦁	Alta resistencia a la torsión e impacto.
+⦁	Aplicable en capas, lo que permite controlar los tiempos de secado.
 ```
-
----
 
 ### Producto 3: R.A.A.D. RC (TractionShield)
 
@@ -150,18 +131,26 @@ pavimento sellando superficies con alta eficiencia.
 
 **Introducción (página del producto):**
 ```
-TractionShield es un sellador asfáltico plural y reactivo a base de asfaltos
-modificados con polímeros, ecológico y en base agua, que se integra al pavimento
-sellando superficies con alta eficiencia, seguridad y sostenibilidad.
+Sellador asfáltico plural y reactivo, fabricado a base de asfaltos modificados con polímeros de alto peso molecular. Está diseñado para integrarse completamente al pavimento existente, sellando de manera eficiente superficies asfálticas en aeropuertos, calles y autopistas.
+
+Es una solución ecológica y respetuosa con el medio ambiente, ya que es a base de agua, no contiene solventes y su proceso de preparación y aplicación requiere calentamiento, garantizando seguridad y sostenibilidad sin comprometer su desempeño.
+```
+**Usos Recomendados:**
+```
+⦁	Zonas sometidas al derrame de combustibles y aceites.
+⦁	Zonas con restricciones de horarios para trabajar: centros comerciales, zonas urbanas, aeropuertos.
+⦁	Protege las carpetas asfálticas de la oxidación causada por factores ambientales.
+⦁	Rejuvenece la superficie de rodamiento.
+⦁	Protege contra la absorción de agua en las microfisuras de las superficies.
+⦁	Pavimentos que presenten desgaste.
 ```
 
-**Descripción Completa:**
+**Beneficios:**
 ```
-Este innovador producto combina la efectividad de los selladores tradicionales
-con una formulación ecológica en base agua, proporcionando una solución sustentable
-para el mantenimiento y protección de pavimentos asfálticos. Su capacidad de
-integración con el pavimento existente garantiza un sellado duradero y eficiente.
-```
+⦁	Resistente a combustibles de aeronaves (Jet A JP-8), al aceite y lubricante.
+⦁	Reactivo único que ataca químicamente los óxidos presentes en la superficie expuesta del agregado.
+⦁	Secado y curado tanto diurno como nocturno.
+⦁	Prácticamente cero VOC (compuestos orgánicos volátiles).
 
 ---
 
@@ -169,25 +158,34 @@ integración con el pavimento existente garantiza un sellado duradero y eficient
 
 **Descripción Corta (para tarjeta):**
 ```
-Aditivo de hidrocarburos modificados que mejora la superficie de pavimentos,
-seguro, duradero y de secado rápido.
+Es un aditivo de hidrocarburos modificados con termoplástico de alto peso molecular derivado del asfalto, que mejora la superficie de pavimentos, es seguro (sin HAP), duradero, de secado rápido y aplicable en distintas condiciones.
 ```
 
 **Introducción (página del producto):**
 ```
-Es un aditivo de hidrocarburos modificados con termoplástico de alto peso molecular
-derivado del asfalto, que mejora la superficie de pavimentos, es seguro (sin HAP),
-duradero, de secado rápido y aplicable en distintas condiciones.
+Es un aditivo de hidrocarburos modificados, compuesto por un termoplástico de alto peso molecular emulsionado, derivado del asfalto. Este innovador producto mejora significativamente la superficie de los pavimentos asfálticos, proporcionando una protección eficiente contra factores ambientales y el tráfico moderado. Además, está formulado sin la presencia de HAP (Hidrocarburos Aromáticos Policíclicos), compuestos conocidos por su potencial cancerígeno, lo que garantiza una opción más segura y amigable con la salud.
+
+Su estructura, enriquecida con polímeros, asfaltos de baja penetración y minerales de alta calidad, le otorga una durabilidad excepcional. De secado rápido, puede ser aplicado tanto de noche como en áreas sin exposición directa al sol, asegurando flexibilidad en su uso y máxima eficiencia en diferentes condiciones.
+```
+**Usos Recomendados:**
+```
+⦁ Para zonas de operación de baja a regular como  rodajes, vialidades lado tierra, vialidades internas, vialidades en plataforma y tercios laterales de pista.
 ```
 
-**Descripción Completa:**
+**Beneficios:**
 ```
-H-25 es una solución versátil y segura para el mejoramiento de pavimentos asfálticos.
-Su formulación libre de hidrocarburos aromáticos policíclicos (HAP) garantiza la
-seguridad tanto en su aplicación como en su uso a largo plazo, mientras que su
-rápido tiempo de secado permite una rápida puesta en servicio de las superficies
-tratadas.
-```
+⦁	No contiene Hidrocarburos aromáticos policíclicos (No-PAHs)
+⦁	Alto punto de reblandecimiento.
+⦁	Mejor ductilidad en climas fríos.
+⦁	Seguro para manejar y almacenar.
+⦁	Muy buena resistencia química, resistencia a derrames.
+⦁	Debido a su alto peso molecular, tiene una muy buena cohesión y alta resistencia a la abrasión.
+⦁	Rápido tiempo de secado y curado, generalmente 2 horas.
+⦁	Alta resistencia a rayos infrarrojos y UV.
+⦁	Protege a los pavimentos del desgaste y factores ambientales.
+⦁	Recomendado para zonas de bajo tránsito, tercios laterales de pista y márgenes.
+⦁	No disminuye la fricción al contener minerales en su estructura interna y mantiene la macrotextura.
+
 
 ---
 
