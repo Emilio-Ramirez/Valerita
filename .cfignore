@@ -1,0 +1,17 @@
+# Cloudflare Pages ignore file
+# Exclude Terraform files from deployment
+
+terraform/
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Git files
+.git/
+.gitignore
+
+# Development files
+README.md
+CONTENT.md
+.DS_Store
