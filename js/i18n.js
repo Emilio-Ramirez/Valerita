@@ -298,4 +298,9 @@ function toggleLanguage() {
 }
 
 // Translate page on load
-document.addEventListener('DOMContentLoaded', translatePage);
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', translatePage);
+} else {
+  // DOM is already ready, translate immediately
+  translatePage();
+}
