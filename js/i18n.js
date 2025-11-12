@@ -3,13 +3,13 @@
 const translations = {
   es: {
     nav: {
-      logo: 'CARBONITTE MÉXICO',
+      logo: 'CARBONITTE',
       home: 'Inicio',
       products: 'Productos',
       contact: 'Contacto'
     },
     hero: {
-      title: 'Carbonitte México',
+      title: 'Carbonitte',
       subtitle: 'Aerospace Coating Tecnology'
     },
     about: {
@@ -139,7 +139,7 @@ const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'Carbonitte Mexico',
+      title: 'Carbonitte',
       subtitle: 'Aerospace Coating Technology'
     },
     about: {
