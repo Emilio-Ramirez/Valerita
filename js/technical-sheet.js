@@ -40,7 +40,13 @@ function updateTechnicalSheetLink() {
 }
 
 // Update link on page load
-document.addEventListener('DOMContentLoaded', updateTechnicalSheetLink);
+document.addEventListener('DOMContentLoaded', function() {
+  // Wait a bit for currentLang to be set by i18n.js
+  setTimeout(updateTechnicalSheetLink, 100);
+});
+
+// Also update when window loads (fallback)
+window.addEventListener('load', updateTechnicalSheetLink);
 
 // Listen for language changes and update the link
 // This function will be called when toggleLanguage() is executed
