@@ -7,7 +7,7 @@ function openLightbox(imageSrc) {
   const lightboxImage = document.getElementById('lightbox-image');
 
   // Get all gallery images on the page
-  const allGalleryImages = document.querySelectorAll('.gallery-grid img');
+  const allGalleryImages = document.querySelectorAll('.gallery img');
   galleryImages = Array.from(allGalleryImages).map(img => img.src);
 
   // Find the index of the clicked image
