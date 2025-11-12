@@ -28,25 +28,26 @@ function updateTechnicalSheetLink() {
   // Get current page filename
   const currentPage = window.location.pathname.split('/').pop();
 
-  // Get current language (from i18n.js)
-  const lang = currentLang || 'es';
+  // Get current language from localStorage (more reliable than global variable)
+  const lang = localStorage.getItem('language') || 'es';
 
   // Get the correct PDF for this page and language
   const pdfPath = technicalSheets[currentPage]?.[lang];
 
   if (pdfPath) {
     link.href = pdfPath;
+    console.log('Updated PDF link to:', pdfPath, 'for language:', lang);
   }
 }
 
-// Update link on page load
-document.addEventListener('DOMContentLoaded', function() {
-  // Wait a bit for currentLang to be set by i18n.js
-  setTimeout(updateTechnicalSheetLink, 100);
-});
+// Update link on page load (multiple triggers to ensure it works)
+document.addEventListener('DOMContentLoaded', updateTechnicalSheetLink);
 
 // Also update when window loads (fallback)
 window.addEventListener('load', updateTechnicalSheetLink);
+
+// Update after a short delay to ensure localStorage is read
+setTimeout(updateTechnicalSheetLink, 200);
 
 // Listen for language changes and update the link
 // This function will be called when toggleLanguage() is executed
