@@ -1,3 +1,2 @@
-/pdfs/*
+/pdfs/*.pdf
   Content-Type: application/pdf
-  Content-Disposition: attachment
