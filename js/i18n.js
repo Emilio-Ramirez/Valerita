@@ -3,13 +3,13 @@
 const translations = {
   es: {
     nav: {
-      logo: 'CARBONITTE',
+      logo: 'CARBONYTE',
       home: 'Inicio',
       products: 'Productos',
       contact: 'Contacto'
     },
     hero: {
-      title: 'Carbonitte',
+      title: 'Carbonyte',
       subtitle: 'Aerospace Coating Tecnology'
     },
     about: {
@@ -123,7 +123,7 @@ const translations = {
       'cta-button': 'Enviar Correo'
     },
     footer: {
-      company: 'Carbonitte',
+      company: 'Carbonyte',
       tagline: 'Soluciones innovadoras y tecnología de vanguardia',
       address: 'Dirección',
       contact: 'Contacto',
@@ -133,13 +133,13 @@ const translations = {
   },
   en: {
     nav: {
-      logo: 'CARBONITTE MEXICO',
+      logo: 'CARBONYTE',
       home: 'Home',
       products: 'Products',
       contact: 'Contact'
     },
     hero: {
-      title: 'Carbonitte',
+      title: 'Carbonyte',
       subtitle: 'Aerospace Coating Technology'
     },
     about: {
@@ -253,7 +253,7 @@ const translations = {
       'cta-button': 'Send Email'
     },
     footer: {
-      company: 'Carbonitte',
+      company: 'Carbonyte',
       tagline: 'Innovative solutions and cutting-edge technology',
       address: 'Address',
       contact: 'Contact',

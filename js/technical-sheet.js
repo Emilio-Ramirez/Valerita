@@ -3,20 +3,20 @@
 
 const technicalSheets = {
   'raad-type-s.html': {
-    es: 'pdfs/es/FICHA TÉCNICA RAAD.ES.pdf',
-    en: 'pdfs/en/FICHA TÉCNICA RAAD.EN.pdf'
+    es: 'pdfs/es/FICHA-TECNICA-RAAD.ES.pdf',
+    en: 'pdfs/en/FICHA-TECNICA-RAAD.EN.pdf'
   },
   'raad-rc.html': {
-    es: 'pdfs/es/FICHA TÉCNICA TractionShield.ES.pdf',
-    en: 'pdfs/en/FICHA TÉCNICA TractionShield.EN.pdf'
+    es: 'pdfs/es/FICHA-TECNICA-TractionShield.ES.pdf',
+    en: 'pdfs/en/FICHA-TECNICA-TractionShield.EN.pdf'
   },
   'supra.html': {
-    es: 'pdfs/es/FICHA TÉCNICA SUPRA.ES.pdf',
-    en: 'pdfs/en/FICHA TÉCNICA SUPRA.EN.pdf'
+    es: 'pdfs/es/FICHA-TECNICA-SUPRA.ES.pdf',
+    en: 'pdfs/en/FICHA-TECNICA-SUPRA.EN.pdf'
   },
   'h-25.html': {
-    es: 'pdfs/es/FICHA TÉCNICA H-25.ES.pdf',
-    en: 'pdfs/en/FICHA TÉCNICA H-25.EN.pdf'
+    es: 'pdfs/es/FICHA-TECNICA-H-25.ES.pdf',
+    en: 'pdfs/en/FICHA-TECNICA-H-25.EN.pdf'
   }
 };
 
