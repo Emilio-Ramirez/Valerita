@@ -156,6 +156,8 @@
   <!-- Lightbox -->
   <div class="lightbox" id="lightbox" onclick="closeLightbox()">
     <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" onclick="event.stopPropagation(); navigateLightbox(-1)">&#10094;</button>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" onclick="event.stopPropagation(); navigateLightbox(1)">&#10095;</button>
     <div class="lightbox-content">
       <img src="" alt="" class="lightbox-image" id="lightbox-image">
     </div>
