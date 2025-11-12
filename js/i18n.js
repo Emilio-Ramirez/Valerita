@@ -295,6 +295,11 @@ function toggleLanguage() {
   localStorage.setItem('language', currentLang);
   document.documentElement.lang = currentLang;
   translatePage();
+
+  // Update technical sheet link if the function exists
+  if (typeof updateTechnicalSheetLink === 'function') {
+    updateTechnicalSheetLink();
+  }
 }
 
 // Translate page on load
