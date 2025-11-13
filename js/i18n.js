@@ -291,33 +291,10 @@ function translatePage() {
 
 // Function to toggle language
 function toggleLanguage() {
-  console.log('[DEBUG] ═══ toggleLanguage() called ═══');
-  console.log('[DEBUG] Current language before toggle:', currentLang);
-  console.log('[DEBUG] document.documentElement.lang before:', document.documentElement.lang);
-  console.log('[DEBUG] localStorage language before:', localStorage.getItem('language'));
-
   currentLang = currentLang === 'es' ? 'en' : 'es';
-  console.log('[DEBUG] New language after toggle:', currentLang);
-
   localStorage.setItem('language', currentLang);
-  console.log('[DEBUG] Set localStorage to:', currentLang);
-
   document.documentElement.lang = currentLang;
-  console.log('[DEBUG] Set document.documentElement.lang to:', currentLang);
-  console.log('[DEBUG] Actual document.documentElement.lang now:', document.documentElement.lang);
-
   translatePage();
-  console.log('[DEBUG] translatePage() called');
-
-  // Update technical sheet link if the function exists
-  console.log('[DEBUG] Checking if updateTechnicalSheetLink exists:', typeof updateTechnicalSheetLink);
-  if (typeof updateTechnicalSheetLink === 'function') {
-    console.log('[DEBUG] Calling updateTechnicalSheetLink() directly from toggleLanguage');
-    updateTechnicalSheetLink();
-  } else {
-    console.log('[DEBUG] updateTechnicalSheetLink function not found!');
-  }
-  console.log('[DEBUG] ═══ toggleLanguage() complete ═══');
 }
 
 // Translate page on load
