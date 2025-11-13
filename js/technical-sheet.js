@@ -46,6 +46,13 @@ function updateTechnicalSheetLink() {
     console.log('[DEBUG] Empty pathname, defaulting to:', currentPage);
   }
 
+  // Cloudflare Pages serves files without .html extension
+  // If currentPage doesn't have .html, add it for lookup
+  if (currentPage && !currentPage.endsWith('.html')) {
+    currentPage = currentPage + '.html';
+    console.log('[DEBUG] Added .html extension for lookup:', currentPage);
+  }
+
   // Get current language - try multiple sources
   const htmlLang = document.documentElement.lang;
   const localStorageLang = localStorage.getItem('language');
