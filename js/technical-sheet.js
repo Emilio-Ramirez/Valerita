@@ -22,63 +22,85 @@ const technicalSheets = {
 
 // Function to update technical sheet link based on current language
 function updateTechnicalSheetLink() {
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('[DEBUG] updateTechnicalSheetLink() called at:', new Date().toISOString());
+  console.log('[DEBUG] Call stack:', new Error().stack);
+
   const link = document.getElementById('technical-sheet-link');
+  console.log('[DEBUG] Link element found:', !!link);
+  console.log('[DEBUG] Link element:', link);
+
   if (!link) {
-    console.log('Technical sheet link not found');
+    console.error('[DEBUG] ✗ Technical sheet link element not found in DOM');
     return;
   }
 
   // Get current page filename
   let currentPage = window.location.pathname.split('/').pop();
+  console.log('[DEBUG] Raw pathname:', window.location.pathname);
+  console.log('[DEBUG] Parsed currentPage:', currentPage);
+
   // Handle case where pathname ends with / or is empty
   if (!currentPage || currentPage === '') {
     currentPage = 'index.html';
+    console.log('[DEBUG] Empty pathname, defaulting to:', currentPage);
   }
 
   // Get current language - try multiple sources
-  let lang = document.documentElement.lang || // From HTML lang attribute (set by i18n.js)
-            localStorage.getItem('language') || // From localStorage
-            'es'; // Default to Spanish
+  const htmlLang = document.documentElement.lang;
+  const localStorageLang = localStorage.getItem('language');
 
-  console.log('Technical Sheet Debug:', {
-    currentPage: currentPage,
-    detectedLang: lang,
-    htmlLang: document.documentElement.lang,
-    localStorageLang: localStorage.getItem('language'),
-    currentHref: link.href
-  });
+  console.log('[DEBUG] Language detection:');
+  console.log('[DEBUG]   - document.documentElement.lang:', htmlLang);
+  console.log('[DEBUG]   - localStorage.getItem("language"):', localStorageLang);
+
+  let lang = htmlLang || localStorageLang || 'es';
+
+  console.log('[DEBUG]   - Final selected lang:', lang);
+
+  console.log('[DEBUG] Link element before update:');
+  console.log('[DEBUG]   - href:', link.href);
+  console.log('[DEBUG]   - getAttribute("href"):', link.getAttribute('href'));
 
   // Get the correct PDF for this page and language
+  console.log('[DEBUG] Looking up PDF for:', { currentPage, lang });
+  console.log('[DEBUG] Available sheets for page:', technicalSheets[currentPage]);
   const pdfPath = technicalSheets[currentPage]?.[lang];
+  console.log('[DEBUG] Resolved PDF path:', pdfPath);
 
   if (pdfPath) {
     link.href = pdfPath;
-    console.log('✓ Updated PDF link to:', pdfPath);
+    console.log('[DEBUG] ✓ Updated link.href to:', pdfPath);
+    console.log('[DEBUG] Link element after update:');
+    console.log('[DEBUG]   - href:', link.href);
+    console.log('[DEBUG]   - getAttribute("href"):', link.getAttribute('href'));
   } else {
-    console.log('✗ Could not find PDF path for page:', currentPage, 'language:', lang);
+    console.error('[DEBUG] ✗ Could not find PDF path for page:', currentPage, 'language:', lang);
+    console.error('[DEBUG] Available pages:', Object.keys(technicalSheets));
   }
+  console.log('═══════════════════════════════════════════════════════');
 }
 
 // Update link on page load (multiple triggers to ensure it works)
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOMContentLoaded - updating PDF link');
+  console.log('[DEBUG] ►►► EVENT: DOMContentLoaded fired ◄◄◄');
   updateTechnicalSheetLink();
 });
 
 // Also update when window loads (fallback)
 window.addEventListener('load', function() {
-  console.log('Window loaded - updating PDF link');
+  console.log('[DEBUG] ►►► EVENT: window.load fired ◄◄◄');
   updateTechnicalSheetLink();
 });
 
 // Update after delays to catch language setting
 setTimeout(function() {
-  console.log('Delayed update 1 (500ms)');
+  console.log('[DEBUG] ►►► EVENT: setTimeout 500ms fired ◄◄◄');
   updateTechnicalSheetLink();
 }, 500);
 
 setTimeout(function() {
-  console.log('Delayed update 2 (1000ms)');
+  console.log('[DEBUG] ►►► EVENT: setTimeout 1000ms fired ◄◄◄');
   updateTechnicalSheetLink();
 }, 1000);
 
@@ -86,21 +108,29 @@ setTimeout(function() {
 const observer = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
     if (mutation.type === 'attributes' && mutation.attributeName === 'lang') {
-      console.log('Language changed via HTML lang attribute to:', document.documentElement.lang);
+      console.log('[DEBUG] ►►► EVENT: MutationObserver detected lang change ◄◄◄');
+      console.log('[DEBUG] Old value:', mutation.oldValue);
+      console.log('[DEBUG] New value:', document.documentElement.lang);
       updateTechnicalSheetLink();
     }
   });
 });
 
+console.log('[DEBUG] Setting up MutationObserver on document.documentElement');
 observer.observe(document.documentElement, {
   attributes: true,
-  attributeFilter: ['lang']
+  attributeFilter: ['lang'],
+  attributeOldValue: true
 });
 
 // Listen for language changes in localStorage (fallback)
 window.addEventListener('storage', function(e) {
+  console.log('[DEBUG] ►►► EVENT: storage event fired ◄◄◄');
+  console.log('[DEBUG] Storage event details:', { key: e.key, oldValue: e.oldValue, newValue: e.newValue });
   if (e.key === 'language') {
-    console.log('Language changed in localStorage to:', e.newValue);
+    console.log('[DEBUG] Language storage key changed to:', e.newValue);
     updateTechnicalSheetLink();
   }
 });
+
+console.log('[DEBUG] ■ technical-sheet.js loaded and initialized ■');
