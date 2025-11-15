@@ -1,4 +1,4 @@
-# 📝 Contenido del Sitio Web - TIU Pavimentos
+# 📝 Contenido del Sitio Web - Carbonyte México
 
 **Instrucciones:** Edita el contenido español directamente en este archivo. Cuando termines, notifica a Emilio para sincronizar los cambios con el sitio web.
 
