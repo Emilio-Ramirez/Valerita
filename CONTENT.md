@@ -217,7 +217,7 @@ C.P. 72700
 
 **Correo Electrónico:**
 ```
-ventas@tiupavimentos.com
+ventas@carbonyte.com.mx
 ```
 
 **Teléfono:**

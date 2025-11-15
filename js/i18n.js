@@ -24,18 +24,18 @@ const translations = {
       title: 'Nuestros Productos',
       subtitle: 'Soluciones innovadoras y tecnología de vanguardia',
       'type-s': {
-        short: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.'
+        short: 'Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos, ofreciendo alta durabilidad, resistencia al tráfico intenso y mejorando la microtextura.'
       },
       supra: {
         short: 'Aplicación superficial con base asfáltica modificada que restaura pavimentos moderadamente deteriorados.',
         description: 'Aplicación superficial con base asfáltica modificada con polímeros y fibras cerámicas que restaura pavimentos moderadamente deteriorados, ofreciendo alta resistencia, durabilidad y una superficie segura.'
       },
       rc: {
-        short: 'TractionShield - Sellador asfáltico ecológico en base agua que se integra al pavimento sellando superficies con alta eficiencia.',
+        short: 'Recubrimiento asfáltico ecológico base agua que protege al pavimento de derrames de combustibles y aceites.',
         description: 'TractionShield es un sellador asfáltico plural y reactivo a base de asfaltos modificados con polímeros, ecológico y en base agua, que se integra al pavimento sellando superficies con alta eficiencia, seguridad y sostenibilidad.'
       },
       h25: {
-        short: 'Aditivo de hidrocarburos modificados que mejora la superficie de pavimentos, seguro, duradero y de secado rápido.',
+        short: 'Nanotecnología de secado rápido enfocada a mejorar las condiciones de superficie de los pavimentos de manera segura y duradera.',
         description: 'Es un aditivo de hidrocarburos modificados con termoplástico de alto peso molecular derivado del asfalto, que mejora la superficie de pavimentos, es seguro (sin HAP), duradero, de secado rápido y aplicable en distintas condiciones.'
       }
     },
@@ -48,7 +48,7 @@ const translations = {
       gallery: 'Galería'
     },
     'raad-type-s': {
-      intro: 'Este tratamiento superficial está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos. Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.',
+      intro: 'El Recubrimiento Asfáltico de Alto Desempeño Type S está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos. Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.',
       use1: 'Pavimentos nuevos como capa de protección.',
       use2: 'Pavimentos con agrietamientos moderados.',
       use3: 'Pavimentos con desgaste superficial.',
@@ -63,7 +63,7 @@ const translations = {
       benefit5: 'Mejora la apariencia del pavimento, proporcionando una superficie uniforme.'
     },
     supra: {
-      intro: 'Se trata de una aplicación superficial compuesta por una base asfáltica modificada con polímeros y agregado pétreo de altas especificaciones, diseñada para restaurar la pérdida de finos y ofrecer una superficie de rodamiento cómoda y segura en pavimentos asfálticos. Este producto permite recuperar pavimentos con deterioros moderados de manera eficiente. Su secado rápido y su estructura reforzada con fibras cerámicas, junto con la base asfáltica modificada, proporcionan una mayor resistencia y durabilidad, extendiendo significativamente la vida útil del pavimento.',
+      intro: 'Aplicación superficial compuesta por una base asfáltica modificada con polímeros y agregado pétreo de altas especificaciones, diseñada para restaurar la pérdida de finos y ofrecer una superficie de rodamiento cómoda y segura en pavimentos asfálticos. Este producto permite recuperar pavimentos con deterioros moderados de manera eficiente. Su secado rápido y su estructura reforzada con fibras cerámicas, junto con la base asfáltica modificada, proporcionan una mayor resistencia y durabilidad, extendiendo significativamente la vida útil del pavimento.',
       use1: 'Diseñado para aplicarse sobre superficies asfálticas con desgranamientos moderados a severos: carreteras, autopistas, pistas de aeropuertos, rodajes y estacionamientos.',
       use2: 'Funciona como superficie de desgaste y para la protección de pavimentos asfálticos en general',
       benefit1: 'Restaura la pérdida de finos y retiene el deterioro acelerado de carpetas asfálticas.',
@@ -77,7 +77,7 @@ const translations = {
       benefit9: 'Aplicable en capas, lo que permite controlar los tiempos de secado.'
     },
     'raad-rc': {
-      intro: 'Sellador asfáltico plural y reactivo, fabricado a base de asfaltos modificados con polímeros de alto peso molecular. Está diseñado para integrarse completamente al pavimento existente, sellando de manera eficiente superficies asfálticas en aeropuertos, calles y autopistas.',
+      intro: 'El Recubrimiento Asfáltico de Alto Desempeño resistente al combustible (TractionShield) es fabricado a base de asfaltos modificados con polímeros de alto peso molecular. Está diseñado para integrarse completamente al pavimento existente, sellando de manera eficiente superficies asfálticas en aeropuertos, calles y autopistas.',
       description: 'Es una solución ecológica y respetuosa con el medio ambiente, ya que es a base de agua, no contiene solventes y su proceso de preparación y aplicación requiere calentamiento, garantizando seguridad y sostenibilidad sin comprometer su desempeño.',
       use1: 'Zonas sometidas al derrame de combustibles y aceites.',
       use2: 'Zonas con restricciones de horarios para trabajar: centros comerciales, zonas urbanas, aeropuertos.',
@@ -91,7 +91,7 @@ const translations = {
       benefit4: 'Prácticamente cero VOC (compuestos orgánicos volátiles).'
     },
     h25: {
-      intro: 'Es un aditivo de hidrocarburos modificados, compuesto por un termoplástico de alto peso molecular emulsionado, derivado del asfalto. Este innovador producto mejora significativamente la superficie de los pavimentos asfálticos, proporcionando una protección eficiente contra factores ambientales y el tráfico moderado. Además, está formulado sin la presencia de HAP (Hidrocarburos Aromáticos Policíclicos), compuestos conocidos por su potencial cancerígeno, lo que garantiza una opción más segura y amigable con la salud.',
+      intro: 'Capa de protección de hidrocarburos modificados, compuesto por un termoplástico de alto peso molecular emulsionado, derivado del asfalto. Este innovador producto mejora significativamente la superficie de los pavimentos asfálticos, proporcionando una protección eficiente contra factores ambientales y el tráfico moderado. Además, está formulado sin la presencia de HAP (Hidrocarburos Aromáticos Policíclicos), compuestos conocidos por su potencial cancerígeno, lo que garantiza una opción más segura y amigable con la salud.',
       description: 'Su estructura, enriquecida con polímeros, asfaltos de baja penetración y minerales de alta calidad, le otorga una durabilidad excepcional. De secado rápido, puede ser aplicado tanto de noche como en áreas sin exposición directa al sol, asegurando flexibilidad en su uso y máxima eficiencia en diferentes condiciones.',
       use1: 'Para zonas de operación de baja a regular como  rodajes, vialidades lado tierra, vialidades internas, vialidades en plataforma y tercios laterales de pista.',
       benefit1: 'No contiene Hidrocarburos aromáticos policíclicos (No-PAHs)',
@@ -154,18 +154,18 @@ const translations = {
       title: 'Our Products',
       subtitle: 'Innovative solutions and cutting-edge technology',
       'type-s': {
-        short: 'Surface treatment that protects and waterproofs asphalt pavements with nanotechnology, offering high durability and resistance to heavy traffic.'
+        short: 'Surface treatment that protects and waterproofs asphalt pavements, offering high durability, resistance to heavy traffic and improving microtexture.'
       },
       supra: {
         short: 'Surface application with modified asphalt base that restores moderately deteriorated pavements.',
         description: 'Surface application with polymer-modified asphalt base and ceramic fibers that restores moderately deteriorated pavements, offering high strength, durability and a safe surface.'
       },
       rc: {
-        short: 'TractionShield - Eco-friendly water-based asphalt sealer that integrates with pavement sealing surfaces with high efficiency.',
+        short: 'Eco-friendly water-based asphalt coating that protects pavement from fuel and oil spills.',
         description: 'TractionShield is a plural and reactive asphalt sealer based on polymer-modified asphalts, eco-friendly and water-based, that integrates with pavement sealing surfaces with high efficiency, safety and sustainability.'
       },
       h25: {
-        short: 'Modified hydrocarbon additive that improves pavement surface, safe, durable and fast-drying.',
+        short: 'Fast-drying nanotechnology focused on improving pavement surface conditions in a safe and durable manner.',
         description: 'It is a modified hydrocarbon additive with high molecular weight thermoplastic derived from asphalt, which improves pavement surface, is safe (PAH-free), durable, fast-drying and applicable in different conditions.'
       }
     },
@@ -178,7 +178,7 @@ const translations = {
       gallery: 'Gallery'
     },
     'raad-type-s': {
-      intro: 'This surface treatment is designed to protect and waterproof asphalt pavements, providing a comfortable and safe riding surface on highways, urban areas, and airport runways. Developed in the United States by Carbonyte Inc., it incorporates nanotechnology in its structure, which allows the use of very low penetration asphalts along with various types of polymers and ceramics. This gives it exceptional durability and superior resistance to heavy and intense traffic, guaranteeing safer and longer-lasting pavements.',
+      intro: 'The High Performance Asphalt Coating Type S is designed to protect and waterproof asphalt pavements, providing a comfortable and safe riding surface on highways, urban areas, and airport runways. Developed in the United States by Carbonyte Inc., it incorporates nanotechnology in its structure, which allows the use of very low penetration asphalts along with various types of polymers and ceramics. This gives it exceptional durability and superior resistance to heavy and intense traffic, guaranteeing safer and longer-lasting pavements.',
       use1: 'New pavements as a protective layer.',
       use2: 'Pavements with moderate cracking.',
       use3: 'Pavements with surface wear.',
@@ -193,7 +193,7 @@ const translations = {
       benefit5: 'Improves pavement appearance, providing a uniform surface.'
     },
     supra: {
-      intro: 'It is a surface application composed of a polymer-modified asphalt base and high-specification stone aggregate, designed to restore loss of fines and provide a comfortable and safe riding surface on asphalt pavements. This product allows efficient recovery of pavements with moderate deterioration. Its fast drying and reinforced structure with ceramic fibers, along with the modified asphalt base, provide greater resistance and durability, significantly extending the pavement\'s service life.',
+      intro: 'Surface application composed of a polymer-modified asphalt base and high-specification stone aggregate, designed to restore loss of fines and provide a comfortable and safe riding surface on asphalt pavements. This product allows efficient recovery of pavements with moderate deterioration. Its fast drying and reinforced structure with ceramic fibers, along with the modified asphalt base, provide greater resistance and durability, significantly extending the pavement\'s service life.',
       use1: 'Designed to be applied on asphalt surfaces with moderate to severe raveling: highways, freeways, airport runways, taxiways and parking lots.',
       use2: 'Functions as a wearing surface and for the protection of asphalt pavements in general',
       benefit1: 'Restores loss of fines and retains accelerated deterioration of asphalt layers.',
@@ -207,7 +207,7 @@ const translations = {
       benefit9: 'Applicable in layers, allowing control of drying times.'
     },
     'raad-rc': {
-      intro: 'Plural and reactive asphalt sealer, manufactured with high molecular weight polymer-modified asphalts. It is designed to fully integrate with existing pavement, efficiently sealing asphalt surfaces in airports, streets and highways.',
+      intro: 'The High Performance Fuel-Resistant Asphalt Coating (TractionShield) is manufactured with high molecular weight polymer-modified asphalts. It is designed to fully integrate with existing pavement, efficiently sealing asphalt surfaces in airports, streets and highways.',
       description: 'It is an ecological and environmentally friendly solution, as it is water-based, contains no solvents and its preparation and application process requires heating, guaranteeing safety and sustainability without compromising its performance.',
       use1: 'Areas subject to fuel and oil spills.',
       use2: 'Areas with time restrictions for working: shopping centers, urban areas, airports.',
@@ -221,7 +221,7 @@ const translations = {
       benefit4: 'Virtually zero VOC (volatile organic compounds).'
     },
     h25: {
-      intro: 'It is a modified hydrocarbon additive, composed of an emulsified high molecular weight thermoplastic derived from asphalt. This innovative product significantly improves the surface of asphalt pavements, providing efficient protection against environmental factors and moderate traffic. Additionally, it is formulated without the presence of PAH (Polycyclic Aromatic Hydrocarbons), compounds known for their carcinogenic potential, which guarantees a safer and more health-friendly option.',
+      intro: 'Protective layer of modified hydrocarbons, composed of an emulsified high molecular weight thermoplastic derived from asphalt. This innovative product significantly improves the surface of asphalt pavements, providing efficient protection against environmental factors and moderate traffic. Additionally, it is formulated without the presence of PAH (Polycyclic Aromatic Hydrocarbons), compounds known for their carcinogenic potential, which guarantees a safer and more health-friendly option.',
       description: 'Its structure, enriched with polymers, low penetration asphalts and high-quality minerals, gives it exceptional durability. Fast-drying, it can be applied both at night and in areas without direct sun exposure, ensuring flexibility in use and maximum efficiency in different conditions.',
       use1: 'For low to regular operation areas such as taxiways, landside roads, internal roads, platform roads and runway lateral thirds.',
       benefit1: 'Does not contain Polycyclic Aromatic Hydrocarbons (Non-PAHs)',
