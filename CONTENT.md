@@ -1,6 +1,16 @@
 # 📝 Contenido del Sitio Web - Carbonyte México
 
-**Instrucciones:** Edita el contenido español directamente en este archivo. Cuando termines, notifica a Emilio para sincronizar los cambios con el sitio web.
+**🚀 SINCRONIZACIÓN AUTOMÁTICA HABILITADA**
+
+Este archivo está conectado automáticamente con el sitio web. Cuando hagas cambios y los confirmes con git, el contenido se sincronizará automáticamente a `js/i18n.js`.
+
+**Cómo funciona:**
+1. Edita el contenido español en este archivo
+2. Guarda los cambios (`Ctrl+S` o `Cmd+S`)
+3. Haz commit de los cambios: `git add CONTENT.md && git commit -m "Actualizar contenido"`
+4. ¡Listo! El sistema sincroniza automáticamente el contenido al hacer commit
+
+**Nota:** No necesitas editar código HTML, JavaScript, ni traducciones al inglés. El sistema se encarga de todo.
 
 ---
 
@@ -298,13 +308,15 @@ Cada producto tiene su propia carpeta de imágenes en `images/`:
 
 ---
 
-## 📝 NOTAS
+## 📝 NOTAS IMPORTANTES
 
-- Este archivo contiene TODO el contenido en español del sitio web
-- Edita el texto directamente en este archivo
-- No te preocupes por código HTML, líneas de código, o traducciones al inglés
-- Cuando termines tus cambios, notifica a Emilio
-- Él sincronizará el contenido con el sitio web automáticamente
+- ✅ Este archivo contiene TODO el contenido en español del sitio web
+- ✅ Edita el texto directamente en los bloques de código (entre \`\`\`)
+- ✅ No modifiques código HTML, JavaScript, ni estructuras de carpetas
+- ✅ Las traducciones al inglés se preservan automáticamente
+- ✅ Al hacer commit, el contenido se sincroniza automáticamente con el sitio web
+- ⚠️  Mantén el formato de los bloques de código para que la sincronización funcione correctamente
+- 💡 Para sincronización manual: `npm run sync-content`
 
 ---
 

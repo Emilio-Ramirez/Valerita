@@ -1,0 +1,25 @@
+{
+  "name": "carbonyte-website",
+  "version": "1.0.0",
+  "description": "Carbonyte México - Aerospace Coating Technology Website",
+  "type": "module",
+  "scripts": {
+    "sync-content": "node scripts/sync-content.mjs",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:Emilio-Ramirez/Valerita.git"
+  },
+  "keywords": [
+    "asphalt",
+    "coating",
+    "pavement",
+    "carbonyte"
+  ],
+  "author": "Carbonyte México",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
