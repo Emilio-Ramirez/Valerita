@@ -1,9 +1,4 @@
-
 # Terraform
 terraform/.terraform/
 terraform/*.tfstate
 terraform/*.tfstate.backup
-
-# Node.js
-node_modules/
-package-lock.json
