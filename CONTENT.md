@@ -8,7 +8,7 @@
 
 ### Hero (Título Principal)
 ```
-Carbonitte México
+Carbonyte
 ```
 
 ### Hero (Subtítulo)
@@ -18,7 +18,7 @@ Aerospace Coating Tecnology
 
 ---
 
-### Quiénes Somos
+### Nuestra esencia
 
 ```
 Somos una empresa dedicada a ofrecer soluciones innovadoras que fortalecen la seguridad y prolongan la vida útil de los pavimentos. Combinamos materiales de la más alta calidad con tecnologías de vanguardia a nivel mundial para garantizar resultados duraderos, eficientes y sostenibles.
@@ -26,7 +26,7 @@ Somos una empresa dedicada a ofrecer soluciones innovadoras que fortalecen la se
 
 ---
 
-### Nuestra Tecnología
+### Tecnología aeroespacial
 
 **Párrafo 1:**
 ```
@@ -62,13 +62,13 @@ Soluciones innovadoras y tecnología de vanguardia
 
 **Descripción Corta (para tarjeta):**
 ```
-Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos con nanotecnología, ofreciendo alta durabilidad y resistencia al tráfico intenso.
+Tratamiento superficial que protege e impermeabiliza pavimentos asfálticos, ofreciendo alta durabilidad, resistencia al tráfico intenso y mejorando la microtextura.
 
 ```
 
 **Introducción (página del producto):**
 ```
-Este tratamiento superficial está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos. Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.
+El Recubrimiento Asfáltico de Alto Desempeño Type S está diseñado para proteger e impermeabilizar pavimentos asfálticos, proporcionando una superficie de rodamiento cómoda y segura en carreteras, zonas urbanas y pistas de aeropuertos. Desarrollado en Estados Unidos por Carbonyte Inc., incorpora nanotecnología en su estructura, lo que permite el uso de asfaltos de muy baja penetración junto con diversos tipos de polímeros y cerámicas. Esto le confiere una durabilidad excepcional y una resistencia superior al tráfico intenso y pesado, garantizando pavimentos más seguros y de larga vida útil.
 ```
 
 **Usos Recomendados:**
@@ -104,7 +104,7 @@ moderadamente deteriorados.
 
 **Introducción (página del producto):**
 ```
-Se trata de una aplicación superficial compuesta por una base asfáltica modificada con polímeros y agregado pétreo de altas especificaciones, diseñada para restaurar la pérdida de finos y ofrecer una superficie de rodamiento cómoda y segura en pavimentos asfálticos. Este producto permite recuperar pavimentos con deterioros moderados de manera eficiente.
+Aplicación superficial compuesta por una base asfáltica modificada con polímeros y agregado pétreo de altas especificaciones, diseñada para restaurar la pérdida de finos y ofrecer una superficie de rodamiento cómoda y segura en pavimentos asfálticos. Este producto permite recuperar pavimentos con deterioros moderados de manera eficiente.
 Su secado rápido y su estructura reforzada con fibras cerámicas, junto con la base asfáltica modificada, proporcionan una mayor resistencia y durabilidad, extendiendo significativamente la vida útil del pavimento.
 
 **Usos Recomendados:**
@@ -126,17 +126,16 @@ Su secado rápido y su estructura reforzada con fibras cerámicas, junto con la 
 ⦁	Aplicable en capas, lo que permite controlar los tiempos de secado.
 ```
 
-### Producto 3: R.A.A.D. RC (TractionShield)
+### Producto 3: R.A.A.D. RC (TractionShield) 
 
 **Descripción Corta (para tarjeta):**
 ```
-TractionShield - Sellador asfáltico ecológico en base agua que se integra al
-pavimento sellando superficies con alta eficiencia.
+Recubrimiento asfáltico ecológico base agua que protege al pavimento de derrames de combustibles y aceites.
 ```
 
 **Introducción (página del producto):**
 ```
-Sellador asfáltico plural y reactivo, fabricado a base de asfaltos modificados con polímeros de alto peso molecular. Está diseñado para integrarse completamente al pavimento existente, sellando de manera eficiente superficies asfálticas en aeropuertos, calles y autopistas.
+El Recubrimiento Asfáltico de Alto Desempeño resistente al combustible (TractionShield) es fabricado a base de asfaltos modificados con polímeros de alto peso molecular. Está diseñado para integrarse completamente al pavimento existente, sellando de manera eficiente superficies asfálticas en aeropuertos, calles y autopistas.
 
 Es una solución ecológica y respetuosa con el medio ambiente, ya que es a base de agua, no contiene solventes y su proceso de preparación y aplicación requiere calentamiento, garantizando seguridad y sostenibilidad sin comprometer su desempeño.
 ```
@@ -163,12 +162,12 @@ Es una solución ecológica y respetuosa con el medio ambiente, ya que es a base
 
 **Descripción Corta (para tarjeta):**
 ```
-Aditivo de hidrocarburos modificados que mejora la superficie de pavimentos, seguro, duradero y de secado rápido.
+Nanotecnología de secado rápido enfocada a mejorar las condiciones de superficie de los pavimentos de manera segura y duradera.
 ```
 
 **Introducción (página del producto):**
 ```
-Es un aditivo de hidrocarburos modificados, compuesto por un termoplástico de alto peso molecular emulsionado, derivado del asfalto. Este innovador producto mejora significativamente la superficie de los pavimentos asfálticos, proporcionando una protección eficiente contra factores ambientales y el tráfico moderado. Además, está formulado sin la presencia de HAP (Hidrocarburos Aromáticos Policíclicos), compuestos conocidos por su potencial cancerígeno, lo que garantiza una opción más segura y amigable con la salud.
+Capa de protección de hidrocarburos modificados, compuesto por un termoplástico de alto peso molecular emulsionado, derivado del asfalto. Este innovador producto mejora significativamente la superficie de los pavimentos asfálticos, proporcionando una protección eficiente contra factores ambientales y el tráfico moderado. Además, está formulado sin la presencia de HAP (Hidrocarburos Aromáticos Policíclicos), compuestos conocidos por su potencial cancerígeno, lo que garantiza una opción más segura y amigable con la salud.
 
 Su estructura, enriquecida con polímeros, asfaltos de baja penetración y minerales de alta calidad, le otorga una durabilidad excepcional. De secado rápido, puede ser aplicado tanto de noche como en áreas sin exposición directa al sol, asegurando flexibilidad en su uso y máxima eficiencia en diferentes condiciones.
 ```
