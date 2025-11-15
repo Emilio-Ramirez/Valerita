@@ -13,11 +13,11 @@ const translations = {
       "subtitle": "Aerospace Coating Tecnology"
     },
     "about": {
-      "title": "Quiénes Somos",
+      "title": "Nuestra esencia",
       "p1": "Somos una empresa dedicada a ofrecer soluciones innovadoras que fortalecen la seguridad y prolongan la vida útil de los pavimentos. Combinamos materiales de la más alta calidad con tecnologías de vanguardia a nivel mundial para garantizar resultados duraderos, eficientes y sostenibles."
     },
     "tech": {
-      "title": "Nuestra Tecnología",
+      "title": "Tecnología aeroespacial",
       "p1": "Nuestros recubrimientos asfálticos ofrecen un alto desempeño y durabilidad gracias a su formulación con minerales, cerámicas, polímeros de última generación; incluyendo SEBS, SBS, EVA y Hule Molido de Llanta, los cuales proporcionan una gran flexibilidad, estabilidad térmica y excelente integración al pavimento existente. Su alto peso molecular y elevado punto de reblandecimiento permiten resistir temperaturas extremas y cargas de tráfico intenso. Su acabado negro satinado crea una superficie fuerte y a la vez flexible, capaz de proteger el pavimento frente al desgaste por neumáticos, radiación solar y humedad. En los sistemas de aplicación R.A.A.D Type S, R.A.A.D RC (TractionShield) Y SUPRA, se incorpora material basáltico triturado, que aporta una microtextura superior y mejora significativamente la fricción y el desempeño superficial del pavimento."
     },
     "products": {
@@ -143,11 +143,11 @@ const translations = {
       "subtitle": "Aerospace Coating Technology"
     },
     "about": {
-      "title": "Who We Are",
+      "title": "Our essence",
       "p1": "We are a company dedicated to offering innovative solutions that strengthen safety and extend the lifespan of pavements. We combine the highest quality materials with world-class cutting-edge technologies to guarantee lasting, efficient and sustainable results."
     },
     "tech": {
-      "title": "Our Technology",
+      "title": "Aerospace technology",
       "p1": "Our asphalt coatings offer high performance and durability thanks to their formulation with minerals, ceramics, and latest generation polymers; including SEBS, SBS, EVA and Ground Tire Rubber, which provide great flexibility, thermal stability and excellent integration with existing pavement. Their high molecular weight and elevated softening point allow them to resist extreme temperatures and heavy traffic loads. Their satin black finish creates a strong yet flexible surface, capable of protecting the pavement against tire wear, solar radiation and moisture. In the R.A.A.D Type S, R.A.A.D RC (TractionShield) and SUPRA application systems, crushed basaltic material is incorporated, which provides superior microtexture and significantly improves the friction and surface performance of the pavement."
     },
     "products": {
